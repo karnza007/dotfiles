@@ -1,0 +1,14 @@
+# Backups created by install.sh
+*.bak-*
+
+# tmux: plugin manager output and saved sessions are machine-local, never commit
+tmux/plugins/
+tmux/resurrect/
+
+# vim: transient state
+vim/.netrwhist
+vim/*.swp
+vim/*~
+
+# macOS noise
+.DS_Store

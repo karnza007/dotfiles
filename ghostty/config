@@ -1,0 +1,30 @@
+# Ghostty Configuration
+# Docs: https://ghostty.org/docs/config/reference
+
+# Font — default is JetBrains Mono at 13pt
+font-family = JetBrains Mono
+font-size = 17
+
+# Disable code ligatures so e.g. <= stays as two chars (< =), not a single ≤ glyph
+font-feature = -liga
+font-feature = -calt
+font-feature = -dlig
+
+theme = iTerm2 Dark Background
+
+# Split pane styling
+split-divider-color = #555555
+unfocused-split-fill = #3a3a3a
+unfocused-split-opacity = 0.7
+
+# Uncomment and adjust as needed:
+# background-opacity = 1.0
+# window-padding-x = 8
+# window-padding-y = 8
+
+keybind = ctrl+shift+j=scroll_page_lines:1
+keybind = ctrl+shift+k=scroll_page_lines:-1
+keybind = alt+shift+k=scroll_page_fractional:-0.8
+keybind = alt+shift+j=scroll_page_fractional:0.8
+keybind = cmd+shift+j=scroll_to_bottom
+keybind = cmd+shift+k=scroll_to_top
